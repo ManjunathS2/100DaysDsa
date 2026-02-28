@@ -23,7 +23,7 @@ public class SecondSmallAndLarge {
 			if(arr[i]>large) {
 				second_large=large;
 				large=arr[i];
-			}else if(arr[i]>large&&arr[i]!=0) {
+			}else if(arr[i]>second_large&&arr[i]!=0) {
 				second_large=arr[i];
 			}
 		}

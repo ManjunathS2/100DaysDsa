@@ -1,22 +1,5 @@
 package LinkedList;
 
-class Node {
-	int data;
-	Node next;
-	
-	Node(int data1,Node next1){
-		data=data1;
-		next=next1;
-	}
-	
-	//if only data
-	Node(int data1){
-		data=data1;
-		next=null;			
-	}
-}
-
-
 
 public class ArrayToLL {
 	public static Node ConvertArraytoLL(int[] arr) {
